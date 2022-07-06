@@ -17,8 +17,6 @@ import java.io.InputStream;
 import org.eclipse.cdt.core.CCorePlugin;
 
 /**
- * @noextend This class is not intended to be subclassed by clients.
- * @noinstantiate This class is not intended to be instantiated by clients.
  */
 class SpawnerInputStream extends InputStream {
 	private int fd;
